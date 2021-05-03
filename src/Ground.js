@@ -1,9 +1,10 @@
 import React from 'react';
-import grass from "./grass.jpg"
 import { RepeatWrapping, TextureLoader } from 'three';
 import { usePlane } from 'use-cannon';
+import grass from "./grass.jpg"
 
 export const Ground = (props) => {
+
   const [ref] = usePlane(() => ({
     rotation: [-Math.PI / 2, 0, 0], 
     ...props
