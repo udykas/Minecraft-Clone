@@ -3,6 +3,8 @@ import { Sky } from 'drei';
 import { Vector3 } from 'three';
 import { Physics } from 'use-cannon';
 import { Camera } from './Camera';
+import { Player } from './Player'
+import { Ground } from './Ground'
 
 function App() {
   return (
